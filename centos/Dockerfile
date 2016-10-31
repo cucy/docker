@@ -40,4 +40,4 @@ EXPOSE 22
 # 暴露容器22号端口给宿主机
 
 ENTRYPOINT ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisord.conf"]  
-#  最后一条生效，每次都需要执行的命令，每次启动的时候
+#  最后一条生效，每次都需要执行的命令，每次启动的时候.
