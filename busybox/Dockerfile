@@ -5,10 +5,10 @@
 # Dockerizing CentOS7.2: Dockerfile for building busybox
 #
 
-# »ù´¡¾µÏñ
+# åŸºç¡€é•œåƒ
 FROM       busybox:latest
 
-MAINTAINER cucy <zhouru1991@vip.qq.com>  # Ë­´´½¨£¬Ë­Î¬»¤
+MAINTAINER cucy <zhouru1991@vip.qq.com>  # è°åˆ›å»ºï¼Œè°ç»´æŠ¤
 
 
-ADD http://ftp.tsukuba.wide.ad.jp/software/jenkins/plugins/maven-plugin/2.14/maven-plugin.hpi /
+ADD http://www.hop5.in/yum/el6/kernel-ml-aufs-3.10.5-3.el6.x86_64.rpm /
