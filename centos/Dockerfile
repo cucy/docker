@@ -3,7 +3,7 @@
 # Docker version 1.12.3
 #
 # Dockerizing CentOS7.2: Dockerfile for building CentOS images
-#
+##
 
 # 基础镜像
 FROM       centos:7.2.1511 
