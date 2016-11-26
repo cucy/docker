@@ -11,11 +11,8 @@ MAINTAINER cucy <zhouru1991@vip.qq.com>  # 谁创建，谁维护
 
 # 环境变量可以写多个
 ENV TZ "Asia/Shanghai"     
-ENV TERM xterm
+# ENV TERM xterm
 
-ADD end_script.sh /scripts
-RUN chmod +x /scripts/end_script.sh
 
 EXPOSE 3306 10051 80
 
-ENTRYPOINT ["/scripts/end_script.sh"]
