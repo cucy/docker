@@ -16,6 +16,6 @@ ENV TERM xterm
 ADD end_script.sh /scripts
 RUN chmod +x /scripts/end_script.sh
 
-EXPOSE 3306,10051,80
+EXPOSE 3306 10051 80
 
 ENTRYPOINT ["/scripts/end_script.sh"]
