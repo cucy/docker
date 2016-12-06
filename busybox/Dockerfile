@@ -11,4 +11,4 @@ FROM       busybox:latest
 MAINTAINER cucy <zhouru1991@vip.qq.com>  # 谁创建，谁维护
 
 
-ADD https://github.com/kubernetes/kubernetes/releases/download/v1.3.10/kubernetes.tar.gz /
+
