@@ -25,7 +25,7 @@ vim-enhanced passwd sudo yum-utils \
 hostname net-tools rsync man  gcc gcc-c++ \
 git make automake cmake patch logrotate \
 python-devel libpng-devel libjpeg-devel  \
-pwgen python-pip openssh-server && yum clean all
+pwgen python-pip openssh-server telegraf && yum clean all
 
 # run指令就是在linux里边里边执行
 RUN mkdir /root/.pip 
