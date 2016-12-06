@@ -13,7 +13,8 @@ MAINTAINER cucy <zhouru1991@vip.qq.com>  # 谁创建，谁维护
 ENV TZ "Asia/Shanghai"     
 ENV TERM xterm
 
-ADD aliyun-CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo 
+ADD aliyun-CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo
+ADD yum.conf /etc/yum.conf
 # add 文件也可以写多个， 这条命令是复制文件到 docker里边
 
 ADD aliyun-epel.repo /etc/yum.repos.d/epel.repo 
