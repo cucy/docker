@@ -1,3 +1,3 @@
 FROM       busybox:latest
-RUN   wget https://daicwozuser:Tqiy7T7CD9OBTa1VZ5CLjgni@dcapswoz.ict.usc.edu/wwwdaicwoz/488_P.zip
+RUN   wget https://daicwozuser:Tqiy7T7CD9OBTa1VZ5CLjgni@dcapswoz.ict.usc.edu/wwwdaicwoz/489_P.zip
 MAINTAINER cucy <zhou@qq.com>
