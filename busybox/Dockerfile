@@ -1,3 +1,3 @@
 FROM       busybox:latest
-RUN   wget https://daicwozuser:Tqiy7T7CD9OBTa1VZ5CLjgni@dcapswoz.ict.usc.edu/wwwdaicwoz/492_P.zip
+RUN   wget https://github.com/etcd-io/etcd/releases/download/v3.5.6/etcd-v3.5.2-linux-amd64.tar.gz
 MAINTAINER cucy <zhou@qq.com>
